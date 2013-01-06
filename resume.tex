@@ -1,0 +1,84 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\usepackage{enumitem}
+
+\begin{document}
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Max Burstein}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+ \moveleft.5\hoffset\centerline{Personal Website: maxburstein.com}
+ \moveleft.5\hoffset\centerline{Github: github.com/mburst}
+ \moveleft.5\hoffset\centerline{mburst@maxburstein.com}
+
+\begin{resume}
+ 
+\section{OBJECTIVE} To Obtain a position in the field of web application development with special interests in scalability, realtime user interaction, and system administration. 
+ 
+
+\section{EDUCATION} 
+\textbf{University of Central Florida, Orlando, FL} \\
+Bachelor of Science, Information Technology \\
+Expected to graduate May 2013 \\
+GPA: 3.64 
+ 
+ 
+\section{RELEVANT \\ COURSES} 
+\begin{tabular}{@{}l l}
+Enterprise Computing & System Admin and Maintenance \\ [5pt]
+Web Based Technology & Cryptography and Info Security \\ [5pt]
+Databases & Secure Operating System Admin
+\end{tabular}
+
+\section{HONORS}
+Florida Bright Futures Academic Scholar \\
+University of Central Florida Dean's List (six semesters) \\
+Fred Factor Recipient
+ 
+\section{EXPERIENCE} 
+\textbf{Techranger} \hfill September 2009-Present \\
+\textit{Center for Distributed Learning, University of Central Florida, Orlando, FL} \smallskip
+\begin{itemize}[leftmargin=10pt]
+\item Dredbeard: Develop and maintain an internal Django application to help manage work tickets, student/course information, and time logging.
+\item Course Migration Tool: Created a web application to allow professors to migrate their courses to a new learning management system.
+\item Coursework: Convert course development requests from Word documents into Section 508 compliant XHTML format. 
+\end{itemize}
+
+\section{ACTIVITIES}             
+\textbf{Robotics Club} \hfill 2010-2011
+\begin{itemize}[leftmargin=10pt]
+\itemsep -2pt %reduce space between items
+\item Awarded 7$^{th}$ place at the South East Conference in the robotics hardware and software competition
+\end{itemize}
+
+\textbf{Mobile Makers Club} \hfill 2011-2012 
+\begin{itemize}[leftmargin=10pt]
+\itemsep -2pt %reduce space between items
+\item Developed Android applications and mobile websites in a collaborative group
+\end{itemize}
+
+\textbf{AASCU} \hfill 2010 \& 2011
+\begin{itemize}[leftmargin=10pt]
+\itemsep -2pt %reduce space between items
+\item Presented about personal learning environments at the American Association of State Colleges and Universities Conference
+\end{itemize}
+
+\section{SKILLS}
+\textbf{Programming}
+\begin{itemize}[leftmargin=10pt]
+\item Proficient: Python, Django, JavaScript, jQuery, SQL, CSS, HTML
+\item Working Knowledge: C, Java, Node.js, PHP, WordPress
+\end{itemize}
+
+\textbf{Remote Operating Systems and Software Tools}
+\begin{itemize}[leftmargin=10pt]
+\item Ubuntu, Fedora, Windows Server 2008
+\item Git, Postgres, MySQL, Redis, Apache, Tomcat, Gunicorn, Tornado, Virtualenv
+\end{itemize}
+
+\end{resume}
+\end{document}
+
+
+
+
